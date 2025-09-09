@@ -1,0 +1,42 @@
+AntScript IDE
+├─ Menu / Toolbar
+│   ├─ File
+│   │   ├─ New
+│   │   ├─ Open
+│   │   ├─ Save
+│   │   └─ Save As
+│   ├─ Edit
+│   │   ├─ Undo
+│   │   ├─ Redo
+│   │   ├─ Copy
+│   │   ├─ Paste
+│   │   └─ Select All
+│   └─ Run
+│       ├─ Compile
+│       ├─ Run
+│       └─ Clear Output
+├─ Code Editor (Main Panel)
+│   ├─ Multi-tab support (one tab per script)
+│   ├─ Syntax Highlighting
+│   │   ├─ Keywords (func, var, if, etc.)
+│   │   ├─ Functions
+│   │   ├─ Numbers
+│   │   └─ Comments
+│   ├─ Line Numbers
+│   ├─ Auto-indentation
+│   └─ Bracket Matching
+├─ Output Console (Bottom Panel)
+│   ├─ Compiler Output
+│   │   ├─ Errors (red)
+│   │   ├─ Warnings (yellow)
+│   │   └─ Success Messages (green)
+│   ├─ Run Output (blue)
+│   └─ Clickable error lines (jumps to code)
+├─ Status Bar
+│   ├─ Current Tab Name
+│   ├─ Cursor Position (Line:Column)
+│   └─ Current Status (Idle / Compiling / Running / Success / Error)
+└─ Optional Sidebar / Helpers
+    ├─ Syntax Reference
+    ├─ Recent Scripts
+    └─ Settings / Theme Toggle
