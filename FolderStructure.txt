@@ -1,4 +1,6 @@
 AntScript IDE
+├─ README.md
+├─ LISCENCE
 ├─ Menu / Toolbar
 │   ├─ File
 │   │   ├─ New
@@ -40,3 +42,4 @@ AntScript IDE
     ├─ Syntax Reference
     ├─ Recent Scripts
     └─ Settings / Theme Toggle
+
