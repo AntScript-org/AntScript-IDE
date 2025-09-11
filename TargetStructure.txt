@@ -1,7 +1,7 @@
 AntScript/
 ├─ README.md                 # Project intro + usage
 ├─ LICENSE                   # License
-├─ requirements.txt          # Python dependencies (PyQt6, etc.)
+├─ requirements.md           # Python dependencies (PyQt6, etc.)
 ├─ setup.py                  # (optional) for packaging
 │
 ├─ ide/                      # IDE (PyQt6-based editor)
@@ -28,9 +28,10 @@ AntScript/
 ├─ docs/                     # Documentation
 │   ├─ syntax.md             # AntScript syntax proposal
 │   ├─ roadmap.md            # Stages (egg → larva → ant…)
-│   └─ ide_structure.md      # Your diagram above
+│   └─ TargetStructure.md    # Your diagram above
 │
 └─ tests/                    # Automated tests
     ├─ test_lexer.py
     ├─ test_parser.py
     └─ test_interpreter.py
+
