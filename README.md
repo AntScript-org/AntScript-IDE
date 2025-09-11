@@ -74,7 +74,7 @@ _Nothing to see here..._
 - Clean syntax helps users focus on logic, not punctuation.
 
 ## Roadmap:
-- Some planned features for AntScript:
+Some planned features for AntScript:
 - Full compiler with .ant file support
 - Standard library with math, string, and list utilities
 - GUI support for beginners to experiment visually
