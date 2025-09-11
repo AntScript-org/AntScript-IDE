@@ -12,11 +12,48 @@ AntScript is a beginner-friendly programming language designed to be simpler and
 - Extensibility: Designed to grow with libraries and new features in the future.
 
 ## Syntax Preview:
+### Comments:
+```
+#Single line comment
+
+#* Multi
+line
+Comment *#
+
+```
+### Variables & Lists
+```
+localVar number 42
+folderVar text "AntScript is fun!"
+flag true
+fruits ["apple", "banana", "cherry"]
+```
+### World Types (IMPORTANT!)
+3D:
+```
+worldType ant.3D
+```
+2D:
+```
+worldType ant.2D
+```
+Webpages:
+```
+worldType ant.web
+```
+gui's:
+```
+worldType ant.gui
+```
 ### Functions:
 ```
 func greet(name) {
     print("Hello, " + name + "!")
 }
+
+greet("World")
+
+#Output: Hello World!
 ```
 ### Conditions
 ```
@@ -28,13 +65,8 @@ if x > 10 {
     print("x is less than 10")
 }
 ```
-### Variables & Lists
-```
-localVar number = 42
-folderVar text = "AntScript is fun!"
-flag = true
-fruits = ["apple", "banana", "cherry"]
-```
+### More:
+_Nothing to see here..._
 ## Why AntScript? 
 
 - Makes programming less intimidating for beginners.
