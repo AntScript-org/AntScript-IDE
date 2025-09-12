@@ -211,8 +211,40 @@ entity Camera:
    kind "Camera3D"
    position rel(0, 3, -8)ToEntityEnemy
 ```
+### V0.04
+- Mainfile name(external apps/not on AntScript compiler(AntScript IDE) or studio(basically roblox studio, but for AntScript \[STILL IN BRAINSTORMING]): Queen.ant
+- Main Camera Naming:
+```
+entity MainCamera3D:
+   kind "Camera3D"
+   position (0, 2, -6)
+   lookAt EntityPlayer
+```
+- LookAt system:
+```
+lookAt ObjTypeObjName
 
+# 3rd person style:
+entity Player:
+   kind "Sphere"
+   position (0,0,0)
 
+entity MainCamera3D:
+   kind "Camera3D"
+   position rel(0, 2, -6)ToEntityPlayer
+   lookAt EntityPlayer
 
+# 1st person style:
+entity MainCamera3D:
+   kind "Camera3D"
+   parentIs Player
+   position rel(0,1.6,0)ToParent
+   lookAt Parent
 
+# Overhead 2D
+entity MainCamera2D:
+   kind "Camera2D"
+   position rel(0,20,0)ToWorld
+   lookAt EntityPlayer
+```
 
