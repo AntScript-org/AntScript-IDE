@@ -66,7 +66,7 @@ if x > 10 {
 }
 ```
 ### More:
-[SyntaxPreview.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/SyntaxPreview.md)
+[SyntaxPreview.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/SyntaxPreview.md)<br/>
 [ChangelogV1.0.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/ChangelogV1.0.md)
 ## Why AntScript? 
 
