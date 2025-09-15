@@ -67,7 +67,7 @@ if x > 10 {
 ```
 ### More:
 [SyntaxPreview.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/SyntaxPreview.md)<br/>
-[ChangelogV1.0.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/ChangelogV1.0.md)
+[ChangelogV1.004.md](https://github.com/AntScript-org/AntScript-IDE/blob/main/ChangelogV1.004.md)
 ## Why AntScript? 
 
 - Makes programming less intimidating for beginners.
