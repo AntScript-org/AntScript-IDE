@@ -26,9 +26,9 @@ Claim ownership of the Software or any portion of it.
 
 If unauthorized use of the Software source code occurs, you agree to:
 
-Immediately delete all copied or stolen source code.
+- Immediately delete all copied or stolen source code.
 
-Remediate any damages as reasonably requested by the copyright holder, which may include a monetary fine for substantial misuse.
+- Remediate any damages as reasonably requested by the copyright holder, which may include a monetary fine for substantial misuse.
 
 
 ## 3. Attribution
